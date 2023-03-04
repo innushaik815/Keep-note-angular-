@@ -1,0 +1,36 @@
+.card {
+    width: 28rem;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+  }
+  
+  .add {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add span {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .add input {
+    margin-right: 10px;
+  }
+  
+  .msg textarea {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .btn-primary {
+    font-size: 1rem;
+  }
+  .centre{
+    display: flex;
+    justify-content: center;
+  }
+  p{
+    margin: auto;
+  }

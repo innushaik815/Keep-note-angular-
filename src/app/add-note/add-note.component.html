@@ -1,0 +1,16 @@
+<div class="centre">
+    <div class="card">
+      <div class="card-body add">
+        <span>
+          <input type="text" placeholder="Note Id" [(ngModel)]="noteId" style="margin-right: 10px;">
+          <input type="text" placeholder="Note Title" [(ngModel)]="noteTitle">
+        </span>
+        <div class="msg mt-3">
+          <textarea class="form-control" rows="3" placeholder="Note Content" [(ngModel)]="noteContent"></textarea>
+        </div>
+        <button class="btn btn-primary mt-3" (click)="saveNote()">Save </button>
+        <p>After saving click on update button above</p>
+      </div>
+    </div>
+  </div>
+  

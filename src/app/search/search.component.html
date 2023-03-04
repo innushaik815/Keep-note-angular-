@@ -1,0 +1,7 @@
+<div class="search">
+    <div class="border">
+        <!-- <input type="text" placeholder="Search Note" [(ngModel)]="searchTerm" /> -->
+        <input type="text" [(ngModel)]="searchTerm" (input)="onSearch()" placeholder="i auto search">
+        <button (click)="onSearch()">click me to see updated notes</button>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+.search{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+  .border {
+    display: flex;
+    border: 2px solid lightskyblue;
+    /* border-radius: 5px; */
+    overflow: auto;
+  }
+  
+  .border input {
+    border: 2px solid lightskyblue;
+    padding: 10px;
+    margin-right: 50px;
+  }
+  
+  .border button {
+    border: none;
+    background-color: blue;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  

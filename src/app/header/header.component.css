@@ -1,0 +1,10 @@
+h1{
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+span{
+    margin-left: 20px;
+    color: white;
+}
